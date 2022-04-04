@@ -29,6 +29,9 @@ public class Employee {
 	@Column
 	private Integer phone;
 
+	@Column
+	private String address;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -59,6 +62,14 @@ public class Employee {
 
 	public void setPhone(Integer phone) {
 		this.phone = phone;
+	}
+	
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	
 }

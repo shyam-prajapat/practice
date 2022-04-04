@@ -43,6 +43,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     	employeesFromDb.setName(employee.getName());
     	employeesFromDb.setEmail(employee.getEmail());
     	employeesFromDb.setPhone(employee.getPhone());
+    	employeesFromDb.setAddress(employee.getAddress());
         employeeRepository.save(employeesFromDb);
     }
     
